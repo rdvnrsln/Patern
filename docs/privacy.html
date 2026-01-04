@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - PatternWise</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+            background: #fff;
+        }
+        h1 {
+            color: #007AFF;
+            border-bottom: 2px solid #007AFF;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #333;
+            margin-top: 30px;
+        }
+        a {
+            color: #007AFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            padding: 8px 16px;
+            background: #f5f5f5;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-link">← Back to Legal Documents</a>
+    
+    <h1>Privacy Policy</h1>
+
+<p><strong>Last Updated:</strong> January 2025</p>
+
+<p><strong>Effective Date:</strong> January 2025</p>
+
+<h2>Introduction</h2>
+
+<p>PatternWise ("we," "our," or "us") is committed to protecting your privacy and the privacy of your children. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application (the "App").</p>
+
+<h2>Information We Collect</h2>
+
+<h3>Information You Provide</h3>
+
+<ul>
+<li><strong>Child Profile Information</strong>: Display names, birth month and year (not exact dates), developmental notes, sensitivities, and preferences</li>
+<li><strong>Observation Data</strong>: Daily logs of sleep, nutrition, activities, emotional events, and developmental milestones</li>
+<li><strong>Account Information</strong>: Subscription tier and usage statistics</li>
+</ul>
+
+<h3>Information Automatically Collected</h3>
+
+<ul>
+<li><strong>Device Information</strong>: Device type, operating system version</li>
+<li><strong>Usage Data</strong>: App features used, analysis requests made, timestamps (anonymized to dates only)</li>
+</ul>
+
+<h3>Information We Do NOT Collect</h3>
+
+<ul>
+<li><strong>Exact Birth Dates</strong>: We only store birth month and year, not exact dates</li>
+<li><strong>Location Data</strong>: We do not collect GPS or location information</li>
+<li><strong>Contact Information</strong>: We do not collect phone numbers, email addresses, or physical addresses</li>
+<li><strong>Photos or Videos</strong>: We do not collect or store any media files</li>
+<li><strong>Third-Party Accounts</strong>: We do not integrate with social media or other third-party accounts</li>
+</ul>
+
+<h2>How We Use Your Information</h2>
+
+<h3>Local Processing</h3>
+
+<p>All data is stored <strong>locally on your device</strong> using industry-standard encryption:</p>
+
+<ul>
+<li><strong>AES-GCM Encryption</strong>: All sensitive data is encrypted at rest</li>
+<li><strong>iOS Keychain</strong>: Encryption keys are stored securely in iOS Keychain</li>
+<li><strong>File Protection</strong>: Database files use iOS File Protection API</li>
+</ul>
+
+<h3>AI Analysis Service</h3>
+
+<p>When you request an analysis, we send <strong>anonymized and aggregated data</strong> to our secure backend service, which then forwards it to third-party AI providers (OpenRouter/DeepSeek).</p>
+
+<p><strong>What We Send:</strong></p>
+<ul>
+<li>Age ranges (e.g., "12-15 months"), not exact ages</li>
+<li>Aggregated metrics (sleep hours, feeding counts, etc.)</li>
+<li>Anonymized behavioral patterns</li>
+<li>Redacted event summaries (all names, locations, and PII removed)</li>
+</ul>
+
+<p><strong>What We Do NOT Send:</strong></p>
+<ul>
+<li>Child names or display names</li>
+<li>Exact birth dates or timestamps</li>
+<li>Raw observation logs</li>
+<li>Personal identifiers</li>
+<li>Location information</li>
+<li>Family member names</li>
+</ul>
+
+<h3>Data Anonymization Process</h3>
+
+<p>Before sending any data to our backend or AI services, we:</p>
+
+<ol>
+<li><strong>Remove PII</strong>: All names, locations, phone numbers, emails, and addresses are automatically removed</li>
+<li><strong>Aggregate Data</strong>: Raw logs are converted to daily aggregates (numbers only)</li>
+<li><strong>Redact Events</strong>: Key events are scrubbed of any identifying information</li>
+<li><strong>Generalize Ages</strong>: Exact ages are converted to ranges (e.g., "12-15 months")</li>
+<li><strong>Remove Timestamps</strong>: Exact times are converted to "days ago" (e.g., "3 days ago")</li>
+</ol>
+
+<h2>Data Sharing and Disclosure</h2>
+
+<h3>Third-Party AI Services</h3>
+
+<p>We use third-party AI services (OpenRouter/DeepSeek) to provide analysis features. These services receive only anonymized, aggregated data with all PII removed. We have contracts in place requiring these services to:</p>
+
+<ul>
+<li>Use data only for providing analysis services</li>
+<li>Not use data for training their models</li>
+<li>Delete data after processing</li>
+<li>Maintain appropriate security measures</li>
+</ul>
+
+<h3>Backend Infrastructure</h3>
+
+<p>Our backend service (Supabase) processes requests but does not store personal data. All data is processed in memory and discarded after analysis completion.</p>
+
+<h3>We Do NOT:</h3>
+
+<ul>
+<li>Sell your data to third parties</li>
+<li>Share data with advertisers</li>
+<li>Use data for marketing purposes</li>
+<li>Share data with other users</li>
+<li>Store data on third-party servers (except temporary processing)</li>
+</ul>
+
+<h2>Data Security</h2>
+
+<h3>Local Security</h3>
+
+<ul>
+<li><strong>Encryption</strong>: AES-GCM encryption for all sensitive data</li>
+<li><strong>Key Management</strong>: Encryption keys stored in iOS Keychain (hardware-backed security)</li>
+<li><strong>File Protection</strong>: iOS File Protection API ensures data is encrypted at rest</li>
+<li><strong>No Cloud Sync</strong>: All data remains on your device</li>
+</ul>
+
+<h3>Network Security</h3>
+
+<ul>
+<li><strong>HTTPS</strong>: All API communications use TLS 1.2+ encryption</li>
+<li><strong>Authentication</strong>: JWT tokens for secure API access</li>
+<li><strong>Rate Limiting</strong>: Server-side rate limiting prevents abuse</li>
+</ul>
+
+<h2>Your Rights and Choices</h2>
+
+<h3>Access and Deletion</h3>
+
+<ul>
+<li><strong>View Data</strong>: All data is stored locally and accessible through the app</li>
+<li><strong>Delete Data</strong>: You can delete all data at any time through app settings</li>
+<li><strong>Export Data</strong>: Contact us to request data export (we can provide anonymized exports)</li>
+</ul>
+
+<h3>Opt-Out</h3>
+
+<ul>
+<li>You can stop using analysis features at any time</li>
+<li>Disabling analysis features prevents any data from being sent to our servers</li>
+</ul>
+
+<h2>Children's Privacy</h2>
+
+<p>This app is designed for parents to track their children's development. We take extra precautions for children's data:</p>
+
+<ul>
+<li><strong>COPPA Compliance</strong>: We comply with the Children's Online Privacy Protection Act (COPPA)</li>
+<li><strong>Minimal Data Collection</strong>: We collect only what's necessary for the app's functionality</li>
+<li><strong>No Direct Collection</strong>: We do not collect data directly from children</li>
+<li><strong>Parental Control</strong>: All data is controlled by parents</li>
+</ul>
+
+<h2>Data Retention</h2>
+
+<ul>
+<li><strong>Local Data</strong>: Stored on your device until you delete it</li>
+<li><strong>Server Data</strong>: Analysis requests are processed and immediately discarded (no permanent storage)</li>
+<li><strong>Backups</strong>: If you use iCloud backup, your encrypted data may be included in backups</li>
+</ul>
+
+<h2>International Data Transfers</h2>
+
+<p>Our backend services may process data in various countries. All data transfers comply with applicable data protection laws, and we ensure appropriate safeguards are in place.</p>
+
+<h2>Changes to This Privacy Policy</h2>
+
+<p>We may update this Privacy Policy from time to time. We will notify you of any changes by:</p>
+
+<ul>
+<li>Posting the new Privacy Policy in the app</li>
+<li>Updating the "Last Updated" date</li>
+<li>Requiring acceptance of the new policy on next app launch (for material changes)</li>
+</ul>
+
+<h2>Contact Us</h2>
+
+<p>If you have questions about this Privacy Policy or our data practices, please contact us at:</p>
+
+<ul>
+<li><strong>Email</strong>: [Your Support Email]</li>
+<li><strong>GitHub</strong>: [Your GitHub Repository]</li>
+</ul>
+
+<h2>Compliance</h2>
+
+<p>This Privacy Policy complies with:</p>
+
+<ul>
+<li><strong>GDPR</strong> (General Data Protection Regulation)</li>
+<li><strong>COPPA</strong> (Children's Online Privacy Protection Act)</li>
+<li><strong>CCPA</strong> (California Consumer Privacy Act)</li>
+<li><strong>Apple App Store Guidelines</strong></li>
+</ul>
+
+<hr>
+
+<p><strong>Important</strong>: By using PatternWise, you acknowledge that you have read and understood this Privacy Policy and agree to its terms.</p>
+
+</body>
+</html>
